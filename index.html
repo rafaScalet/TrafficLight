@@ -12,13 +12,14 @@
     <div class="container">
         <div class="traffic-light">
             <div class="panel">
-                <div class="light light-red"></div>
-                <div class="light light-yellow"></div>
-                <div class="light light-green"></div>
+                <div id="red" class="light light-off"></div>
+                <div id="yellow" class="light light-off"></div>
+                <div id="green" class="light light-green"></div>
             </div>
         </div>
-        <button>Click Me!</button>
+        <button onclick="changeColor()">Click Me!</button>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
